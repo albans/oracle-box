@@ -3,7 +3,7 @@ oracle-box
 
 This is a Vagrant file for 
   - Starting up an ubuntu box
-  - Installing and setting up Oracle XE 10g universal
+  - Installing Oracle XE 10g universal
   - Setting up oracle
 
 The system user will get *system* password. You may want to change that editing the `install-ora-xe-10g-u.sh` script.

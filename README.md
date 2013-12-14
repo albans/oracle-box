@@ -6,7 +6,9 @@ This is a Vagrant file for
   - Installing **Oracle XE 10g R2 universal**
   - Setting up oracle
 
-If you need **Oracle XE 11g** then you should have a look at [hilverd / vagrant-ubuntu-oracle-xe](https://github.com/hilverd/vagrant-ubuntu-oracle-xe) or [codescape / vagrant-oracle-xe](https://github.com/codescape/vagrant-oracle-xe) depending on the version of Ubuntu you want to use. 
+If you need **Oracle XE 11g** then you should have a look at [hilverd / vagrant-ubuntu-oracle-xe](https://github.com/hilverd/vagrant-ubuntu-oracle-xe) 
+or [codescape / vagrant-oracle-xe](https://github.com/codescape/vagrant-oracle-xe) depending on the version of Ubuntu you want to use.
+ 
 The password for the system user will be *system* unless you edit the provisioning script `install-ora-xe-10g-u.sh` to change it.
 You may also extend the provisioning script to create some users or load some data for example.
 
@@ -27,4 +29,4 @@ Then you should be able to connect to  `system@localhost:1521`.
 Acknowledgements
 ================
 
-For installing oracle 10g on Ubuntu, I followed the instruction from the French Ubuntu community available [here](http://doc.ubuntu-fr.org/oracle). Although the direct installation process using `apt-get` isn't working anymore, the documentation provides an alternative installation procedure that is still working.
+For installing Oracle 10g on Ubuntu, I followed the instruction from the french Ubuntu community available [here](http://doc.ubuntu-fr.org/oracle). Although the direct installation process using `apt-get` isn't working anymore, the documentation provides an alternative installation procedure that is still working.
